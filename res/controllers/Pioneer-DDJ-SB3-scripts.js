@@ -771,7 +771,7 @@ PioneerDDJSB3.vinylButton = function(channel, control, value, status, group) {
 
 PioneerDDJSB3.slipButton = function(channel, control, value, status, group) {
     if (value) {
-        script.toggleControl(group, "slipEnabled");
+        script.toggleControl(group, "slip_enabled");
     }
 };
 
